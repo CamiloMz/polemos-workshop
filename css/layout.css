@@ -1,0 +1,38 @@
+/* Layout */
+
+.container {
+    width: min(100% - 2rem, var(--container-width));
+    margin-inline: auto;
+}
+
+.section {
+    padding-block: var(--space-xl);
+}
+
+.section--sm {
+    padding-block: var(--space-lg);
+}
+
+.section__header {
+    margin-bottom: var(--space-md);
+}
+
+.section__eyebrow {
+    font-size: var(--fs-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-vermillion);
+    margin-bottom: var(--space-xs);
+}
+
+.section__title {
+    font-family: var(--font-heading);
+    font-size: var(--fs-xxl);
+    line-height: 1;
+    font-weight: 500;
+}
+
+.section__text {
+    max-width: 640px;
+    color: var(--color-charcoal);
+}
